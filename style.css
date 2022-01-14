@@ -1,0 +1,139 @@
+body {
+	background:lightseagreen;
+	margin:0;
+	padding:0;
+}
+
+input:focus, button:focus {
+	outline:none;
+}
+
+div {
+	box-sizing:border-box;
+}
+
+.container {
+	width:400px;
+	background:#fff;
+	margin:20px auto;
+	border-radius:8px;
+	box-shadow:0 2px 5px 0 #ccc;
+}
+
+.header {
+	width:100%;
+	padding-top:40px;
+	padding-bottom:10px;
+}
+
+.header::after {
+	display:block;
+	content:"";
+	clear:both;
+}
+
+.header .input {
+	width:80%;
+	float:left;
+	padding-left:10px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 2px #999;
+    margin-left: 10% ;
+}
+.header .input input {
+	width:100%;
+	box-sizing:border-box;
+	padding:8px;
+	border:none;
+	font-size:20px;
+	font-weight:bolder;
+	font-family:'montserrat';
+	text-align:right;
+	color:#0A51BC;
+}
+
+.body {
+	background:white;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	padding-top:40px;
+	padding-bottom:40px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.body .row {
+	width:100%;
+	padding:15px 0;
+}
+
+.body .row::after {
+	display:block;
+	content:"";
+	clear:both;
+} 
+
+
+.body .row .col-3 {
+	width:33.3333%;
+	float:left;
+	text-align: center;
+}
+.body .row .col-3 button {
+	width:68px;
+	height:68px;
+	border:none;
+	font-family:'montserrat';
+	color:#072A9A;
+	background:#fff;
+    font-size: 20px;
+
+}
+.body .row .col-3 button:focus {
+	background:#f8f8f8;
+}
+.body .row span{
+    font-size: 10px;
+    color: grey;
+}
+.body .row .col-2 {
+	float:left;
+	width:33.33;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.body .row .col-2 button {
+	width:100px;
+	height:60px;
+	border:none;
+	color:#fff;
+	font-size:25px;
+	box-shadow:0 5px 10px 0 #eee;
+}
+.body .reset {
+	width:20%;
+	float:left;
+	padding-right:10px;
+}
+.body .reset button {
+	width:100%;
+	padding:8px;
+	border:none;
+	background:transparent;
+	font-size:25px;
+	color:#0A51BC;
+    margin-top: 7px;
+}
+.body .reset button:focus {
+	background:#f8f8f8;
+}
+
+.body .row .col-2 button#add {
+	background:blue;
+}
+.body .row .col-2 button#call {
+	background:green;
+}
+
+
